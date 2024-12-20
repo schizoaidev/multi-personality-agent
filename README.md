@@ -63,7 +63,7 @@ A live demo can be found here: https://x.com/SchizoSwarms
 
 Run the script to begin generating tweets from your agents:
    ```bash
-   python src/agent.py
+   python src/__init__.py
    ```
 ---
 
