@@ -1,3 +1,9 @@
+<div align="center">
+  <a href="https://x.com/SchizoSwarms">
+    <img src="https://i.imgur.com/5SkZOGN.png" style="margin: 15px; max-width: 300px" width="50%" alt="Logo">
+  </a>
+</div>
+
 # Multi-Personality Agent (MPA)
 
 This project that utilizes the `RoundRobinSwarm` model from [Swarms](https://github.com/kyegomez/swarms/) to simulate multiple personalities which tweet out dynamic content. By harnessing RoundRobinSwarm's distributed processing with multiple personalities (agents), this project allows a single agent to contain multiple personalities which have their own memories, perspectives, and style of content generated.
