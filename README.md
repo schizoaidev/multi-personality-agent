@@ -30,11 +30,11 @@ A live demo can be found here: https://x.com/SchizoSwarms
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/roundrobin-swarm-tweet-generator.git
+   git clone https://github.com/schizoaidev/multi-personality-agent.git
    ```
 2. **Navigate to the project directory:**
    ```bash
-   cd roundrobin-swarm-tweet-generator
+   cd multi-personality-agent
    ```
 3. **Install required dependencies:**
    Use a Python virtual environment for dependency isolation:
