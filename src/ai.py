@@ -20,7 +20,6 @@ def load_agents_from_json(json_file):
     agents = []
 
     for agent in agent_data:
-        print(agent["max_loops"])
         agent_instance = Agent(
             agent_name=agent["agent_name"],
             system_prompt=agent["system_prompt"],
@@ -41,6 +40,10 @@ def load_agents_from_json(json_file):
 agents = load_agents_from_json(personalities_path)
 swarm = RoundRobinSwarm(agents=agents, verbose=True, max_loops=1)
 
+agent_index = 0
 
 def get_ai_response():
-    return swarm._execute_agent(random.choice(agents), "tweet")
+    global agent_index
+    agent = agents[agent_index]
+    agent_index = (agent_index + 1) % len(agents)
+    return swarm._execute_agent(agent, "tweet")
